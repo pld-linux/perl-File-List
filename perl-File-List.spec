@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	File
 %define	pnam	List
-Summary:	File::List - Crawling directory trees and compiling lists of files
-Summary(pl):	Modu³ File::List - przechodz±cy po drzewach katalogów i tworz±cy listy plików
+Summary:	File::List Perl module - crawling directory trees and compiling lists of files
+Summary(pl):	Modu³ Perla File::List - chodzenie po drzewach katalogów tworz±c listy plików
 Name:		perl-File-List
 Version:	0.3.1
 Release:	2
