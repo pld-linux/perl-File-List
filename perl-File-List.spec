@@ -33,7 +33,7 @@ za¿yczyæ) pasuj±ce do wyra¿enia regularnego.
 	INSTALLDIRS=vendor
 %{__make}
 
-%{!?_without_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
