@@ -5,7 +5,7 @@ Summary:	File::List - Crawling directory trees and compiling lists of files
 Summary(pl):	Modu³ File::List - przechodz±cy po drzewach katalogów i tworz±cy listy plików
 Name:		perl-File-List
 Version:	0.3.1
-Release:	1
+Release:	2
 License:	?
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
