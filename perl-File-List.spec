@@ -28,7 +28,7 @@ za¿yczyæ) pasuj±ce do wyra¿enia regularnego.
 %setup -q -n %{pdir}/%{pnam}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
