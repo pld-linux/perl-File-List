@@ -6,7 +6,7 @@ Summary(pl):	Modu³ Perla File::List - chodzenie po drzewach katalogów tworz±c li
 Name:		perl-File-List
 Version:	0.3.1
 Release:	2
-License:	?
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0fdefea8d6dffabc3c2244ea0c627c50
