@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	List
 Summary:	File::List Perl module - crawling directory trees and compiling lists of files
-Summary(pl):	Modu³ Perla File::List - chodzenie po drzewach katalogów tworz±c listy plików
+Summary(pl.UTF-8):   ModuÅ‚ Perla File::List - chodzenie po drzewach katalogÃ³w tworzÄ…c listy plikÃ³w
 Name:		perl-File-List
 Version:	0.3.1
 Release:	3
@@ -24,10 +24,10 @@ This module crawls the directory tree starting at the provided base
 directory and can return files (and/or directories if desired)
 matching a regular expression.
 
-%description -l pl
-Ten modu³ przechodzi po drzewie katalogów zaczynaj±c od zadanego
-katalogu bazowego i zwraca pliku (i/lub katalogi, je¶li sobie tego
-za¿yczyæ) pasuj±ce do wyra¿enia regularnego.
+%description -l pl.UTF-8
+Ten moduÅ‚ przechodzi po drzewie katalogÃ³w zaczynajÄ…c od zadanego
+katalogu bazowego i zwraca pliku (i/lub katalogi, jeÅ›li sobie tego
+zaÅ¼yczyÄ‡) pasujÄ…ce do wyraÅ¼enia regularnego.
 
 %prep
 %setup -q -n %{pdir}/%{pnam}
