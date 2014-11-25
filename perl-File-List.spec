@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	File
 %define		pnam	List
+%include	/usr/lib/rpm/macros.perl
 Summary:	File::List Perl module - crawling directory trees and compiling lists of files
 Summary(pl.UTF-8):	Moduł Perla File::List - chodzenie po drzewach katalogów tworząc listy plików
 Name:		perl-File-List
@@ -14,6 +14,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0fdefea8d6dffabc3c2244ea0c627c50
+URL:		http://search.cpan.org/dist/File-List/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
