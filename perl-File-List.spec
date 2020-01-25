@@ -4,7 +4,6 @@
 
 %define		pdir	File
 %define		pnam	List
-%include	/usr/lib/rpm/macros.perl
 Summary:	File::List Perl module - crawling directory trees and compiling lists of files
 Summary(pl.UTF-8):	Moduł Perla File::List - chodzenie po drzewach katalogów tworząc listy plików
 Name:		perl-File-List
